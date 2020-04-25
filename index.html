@@ -46,11 +46,10 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
 </head>
+	
 <body>
   <div id="main">
-
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}

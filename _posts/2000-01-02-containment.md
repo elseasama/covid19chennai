@@ -5,7 +5,7 @@ color: black
 fa-icon: map-marker 
 ---
 
-# Containment zones,streets, testing labs, and treating hospitals
+# Containment zones and streets, testing labs, and treating hospitals
 ##### **Android users:** Click on the expand screen button on the righ to open this map in your native google maps app.
 ##### **Apple users:** Sorry :(
 ##### **Desktop users:** ;)

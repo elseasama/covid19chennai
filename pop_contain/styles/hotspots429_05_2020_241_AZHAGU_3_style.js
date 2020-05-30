@@ -21,8 +21,14 @@ var style_hotspots429_05_2020_241_AZHAGU_3 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 1.2000000000000002 + size,
-            stroke: new ol.style.Stroke({color: 'rgba(50,87,128,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(72,123,182,1.0)'})}),
+        image: new ol.style.RegularShape({radius: 3.2999999999999905 + size, points: 5,
+            radius2: 1.6499999999999952, stroke: new ol.style.Stroke({color: 'rgba(184,8,8,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(184,8,8,1.0)'})}),
+        text: createTextStyle(feature, resolution, labelText, labelFont,
+                              labelFill, placement, bufferColor,
+                              bufferWidth)
+    }),new ol.style.Style({
+        image: new ol.style.RegularShape({radius: 3.5999999999999917 + size, points: 5,
+            radius2: 1.7999999999999958, stroke: new ol.style.Stroke({color: 'rgba(255,0,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0}), fill: new ol.style.Fill({color: 'rgba(255,0,0,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

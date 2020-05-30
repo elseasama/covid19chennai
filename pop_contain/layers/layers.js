@@ -26,42 +26,42 @@ var lyr_chennai_1 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/chennai_1.png" /> chennai'
             });
-var lyr_Chennaigccpop_2 = new ol.layer.Image({
+var lyr_PopulationDensity_2 = new ol.layer.Image({
                             opacity: 1,
-                            title: "Chennaigccpop",
+                            title: "Population Density",
                             
                             
                             source: new ol.source.ImageStatic({
-                               url: "./layers/Chennaigccpop_2.png",
+                               url: "./layers/PopulationDensity_2.png",
     attributions: ' ',
                                 projection: 'EPSG:3857',
                                 alwaysInRange: true,
                                 imageExtent: [8915461.290274, 1442856.116604, 8942321.355147, 1486495.039779]
                             })
                         });
-var format_hotspots429_05_2020_241_AZHAGU_3 = new ol.format.GeoJSON();
-var features_hotspots429_05_2020_241_AZHAGU_3 = format_hotspots429_05_2020_241_AZHAGU_3.readFeatures(json_hotspots429_05_2020_241_AZHAGU_3, 
+var format_Containmentzones_3 = new ol.format.GeoJSON();
+var features_Containmentzones_3 = format_Containmentzones_3.readFeatures(json_Containmentzones_3, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_hotspots429_05_2020_241_AZHAGU_3 = new ol.source.Vector({
+var jsonSource_Containmentzones_3 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_hotspots429_05_2020_241_AZHAGU_3.addFeatures(features_hotspots429_05_2020_241_AZHAGU_3);
-var lyr_hotspots429_05_2020_241_AZHAGU_3 = new ol.layer.Vector({
+jsonSource_Containmentzones_3.addFeatures(features_Containmentzones_3);
+var lyr_Containmentzones_3 = new ol.layer.Vector({
                 declutter: true,
-                source:jsonSource_hotspots429_05_2020_241_AZHAGU_3, 
-                style: style_hotspots429_05_2020_241_AZHAGU_3,
+                source:jsonSource_Containmentzones_3, 
+                style: style_Containmentzones_3,
                 interactive: true,
-                title: '<img src="styles/legend/hotspots429_05_2020_241_AZHAGU_3.png" /> hotspots (4) 29_05_2020_241_AZHAGU'
+                title: '<img src="styles/legend/Containmentzones_3.png" /> Containment zones'
             });
 
-lyr_GoogleRoad_0.setVisible(true);lyr_chennai_1.setVisible(true);lyr_Chennaigccpop_2.setVisible(true);lyr_hotspots429_05_2020_241_AZHAGU_3.setVisible(true);
-var layersList = [lyr_GoogleRoad_0,lyr_chennai_1,lyr_Chennaigccpop_2,lyr_hotspots429_05_2020_241_AZHAGU_3];
+lyr_GoogleRoad_0.setVisible(true);lyr_chennai_1.setVisible(true);lyr_PopulationDensity_2.setVisible(true);lyr_Containmentzones_3.setVisible(true);
+var layersList = [lyr_GoogleRoad_0,lyr_chennai_1,lyr_PopulationDensity_2,lyr_Containmentzones_3];
 lyr_chennai_1.set('fieldAliases', {'ZONE_NO': 'ZONE_NO', 'WARD_NO': 'WARD_NO', 'ZONE_NAME': 'ZONE_NAME', 'WARD_NAME': 'WARD_NAME', 'chennai_ZONE_NO': 'chennai_ZONE_NO', 'chennai_ZONE_NAME': 'chennai_ZONE_NAME', 'chennai_WARD_NAME': 'chennai_WARD_NAME', 'chennai_20-05-2020': 'chennai_20-05-2020', });
-lyr_hotspots429_05_2020_241_AZHAGU_3.set('fieldAliases', {'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', 'snippet': 'snippet', });
+lyr_Containmentzones_3.set('fieldAliases', {'Name': 'Name', 'description': 'description', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMode': 'altitudeMode', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', 'snippet': 'snippet', });
 lyr_chennai_1.set('fieldImages', {'ZONE_NO': 'TextEdit', 'WARD_NO': 'Range', 'ZONE_NAME': 'TextEdit', 'WARD_NAME': 'TextEdit', 'chennai_ZONE_NO': 'TextEdit', 'chennai_ZONE_NAME': 'TextEdit', 'chennai_WARD_NAME': 'TextEdit', 'chennai_20-05-2020': 'Range', });
-lyr_hotspots429_05_2020_241_AZHAGU_3.set('fieldImages', {'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', 'snippet': 'TextEdit', });
+lyr_Containmentzones_3.set('fieldImages', {'Name': 'TextEdit', 'description': 'TextEdit', 'timestamp': 'DateTime', 'begin': 'DateTime', 'end': 'DateTime', 'altitudeMode': 'TextEdit', 'tessellate': 'Range', 'extrude': 'Range', 'visibility': 'Range', 'drawOrder': 'Range', 'icon': 'TextEdit', 'snippet': 'TextEdit', });
 lyr_chennai_1.set('fieldLabels', {'ZONE_NO': 'no label', 'WARD_NO': 'no label', 'ZONE_NAME': 'no label', 'WARD_NAME': 'no label', 'chennai_ZONE_NO': 'no label', 'chennai_ZONE_NAME': 'no label', 'chennai_WARD_NAME': 'no label', 'chennai_20-05-2020': 'no label', });
-lyr_hotspots429_05_2020_241_AZHAGU_3.set('fieldLabels', {'Name': 'no label', 'description': 'inline label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', 'snippet': 'no label', });
-lyr_hotspots429_05_2020_241_AZHAGU_3.on('precompose', function(evt) {
+lyr_Containmentzones_3.set('fieldLabels', {'Name': 'header label', 'description': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMode': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', 'snippet': 'no label', });
+lyr_Containmentzones_3.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });

@@ -32,6 +32,11 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
+  location:  '#E27D60'
+  maps:      '#85DCB'
+  graphs:    '#E3E2DF'
+  telegram:   '#C38D9E'
+  database:   '#41B3A3'
 
 kramdown:
   auto_ids:  false

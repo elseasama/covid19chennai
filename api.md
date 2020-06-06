@@ -6,5 +6,8 @@
 | &#10003; | Patient Level : Deceased patient data              | [Deceased data](https://v2-api.sheety.co/2d9b3ea4cab67c829e7753be116326e2/covid19/deceased)    
 
 ----------------------------------------------
+### RAW DATABASE
 
+| Status        | Data                                                                      | URL                                                      |
+| ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
 | &#10003; | Raw database : Zonal cases, containment zones, Demographics, sources, ward list  | [Raw database](https://docs.google.com/spreadsheets/d/1-SUs7yJeJzYQMNbH6ERPReV0ua9bDHZtb_uHqbEPeI8/edit?usp=sharing)

@@ -4,8 +4,9 @@
 ![](https://i.postimg.cc/Y9RmrSZh/image.png)
 
 -----------------------------------
-
-[Site](https://elseasama.github.io/covid19chennai/)
+| Status        | Data                                                                      | URL                                                      |
+| ------------- | ------------------------------------------------------------------------- | -------------------------------------------------------- |
+| :thumbsup: | website | https://elseasama.github.io/covid19chennai/
 
 -----------------------------------
 ### JSON

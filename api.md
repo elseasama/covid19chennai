@@ -1,10 +1,3 @@
----
-title: "API"
-bg: maps
-color: black
-fa-icon: line-chart
----
-
 ### JSON
 
 | Status        | Data                                                                      | URL                                                      |

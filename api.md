@@ -1,4 +1,11 @@
-<tbody>
+---
+title: "Statistics"
+bg: maps
+color: black
+fa-icon: line-chart
+---
+
+
     <tr>
       <td><img width="20" height="20" title=":green_heart:" class="emoji" alt=":green_heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f49a.png"></td>
       <td>Patient Level : Raw Data Partition 1 (Till Apr 19)</td>

@@ -21,6 +21,17 @@
 | :thumbsup: | Zone and ward level : ward names, households, and population | demographics            | [https://v2-api.sheety.co/be53bea9995480777df56e14adcfd93b/covid19Chennai](https://v2-api.sheety.co/be53bea9995480777df56e14adcfd93b/covid19Chennai/demographics)  
 
 -----------------------------------------
+
+### CSV
+| Status     | Data                                                                                               | CSV |
+|------------|----------------------------------------------------------------------------------------------------|-----|
+| :thumbsup: | Zone level : Time series, Confirmed cases, recovered cases, Hospitalized cases, and Deceased cases | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/cases.csv    |
+| :thumbsup: | Patient Level : Deceased patient data                                                              | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/deceased.csv    |
+| :thumbsup: | Zone and ward level : Containment zones                                                            |   https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv  |
+| :thumbsup: | Zone and ward level : ward names, households, and population                                       | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/demographics.csv    |
+
+----------------------------------------------
+
 ### RAW DATABASE
 
 | Status        | Data                                                                      | URL                                                      |

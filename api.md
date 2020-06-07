@@ -14,10 +14,10 @@
 
 | Status     | Data                                                                                               | CSV |
 |------------|----------------------------------------------------------------------------------------------------|-----|
-| &#10003; | Zone level : Time series, Confirmed cases, recovered cases, Hospitalized cases, and Deceased cases | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/cases.csv    |
-| &#10003; | Patient Level : Deceased patient data                                                              | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/deceased.csv    |
-| &#10003; | Zone and ward level : Containment zones                                                            |   https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv  |
-| &#10003; | Zone and ward level : ward names, households, and population                                       | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/demographics.csv    |
+| &#10003; | Zone level : Time series, Confirmed cases, recovered cases, Hospitalized cases, and Deceased cases | [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/cases.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/cases.csv)    |
+| &#10003; | Patient Level : Deceased patient data                                                              | [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/deceased.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/deceased.csv)    |
+| &#10003; | Zone and ward level : Containment zones                                                            |   [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv)  |
+| &#10003; | Zone and ward level : ward names, households, and population                                       | [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/demographics.csv)    |
 
 ----------------------------------------------
 

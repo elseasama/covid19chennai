@@ -42,5 +42,29 @@
 | :thumbsup: | Raw database              | https://docs.google.com/spreadsheets/d/1-SUs7yJeJzYQMNbH6ERPReV0ua9bDHZtb_uHqbEPeI8/edit?usp=sharing
   
 
+# API Documentation
+
+| Field          | Type   | Description                                        |
+|----------------|--------|----------------------------------------------------|
+| id             | number | Serial number                                      |
+| date           | number | Date and time expressed according to ISO 8601      |
+| zoneNo         | string | The zone number expressed in roman numeral format. |
+| zoneName       | string | The name of the zone                               |
+| confirmedCases | number | The cumulative number of confirmed cases.          |
+| recovered      | number | The cumulative number of recovered cases.          |
+| hospitalized   | number | The number of active cases currently hospitalized. |
+| deceased       | number | The cumulative number of deceased cases.           |
+
+### URL Structure
+
+https://v2-api.sheety.co/be53bea9995480777df56e14adcfd93b/covid19Chennai/endpointName
+
+### Getting records
+To retrieve records from your sheet, perform a GET request to the endpoint (you can find the URL for the endpoint in project settings). This will return all records in your sheet.
+To retrieve records from your sheet, perform a GET request to the endpoint (you can find the URL for the endpoint in project settings). This will return all records in your sheet.
+https://v2-api.sheety.co/be53bea9995480777df56e14adcfd93b/covid19Chennai/cases/
+
+If you want to return a specific record, append the record ID to the endpoint URL.
+https://v2-api.sheety.co/be53bea9995480777df56e14adcfd93b/covid19Chennai/cases/3
 
 

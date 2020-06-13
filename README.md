@@ -76,8 +76,8 @@ https://v2-api.sheety.co/be53bea9995480777df56e14adcfd93b/covid19Chennai/cases/3
 
 ### Patient Level : Deceased patient data
 
-**Note: A null string represents that there is no data for that field.
-true boolean value represents the presence of the disease or condition and false boolean value represents the abscence of the disease or condition.**
+**Note: A null string represents that there is no data for that field.**
+**The boolean value "true" or "TRUE" represents the presence of the disease or condition. The boolean value "false" or "FALSE" represents the abscence of the disease or condition.**
 
 | Field                                                        | Type    | Description                                                                                                                      |
 |--------------------------------------------------------------|---------|----------------------------------------------------------------------------------------------------------------------------------|

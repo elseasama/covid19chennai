@@ -20,6 +20,7 @@
 | &#10003; | Zone and ward level : Containment zones                                                            |   [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv)  |
 | &#10003; | Zone and ward level : ward names, households, and population                                       | [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/ContainmentZones.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/demographics.csv) 
 | &#10003;  | District level : Samples tested and tests per million | [https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/testing.csv](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/testing.csv)
+| &#10003; | District level : Daily samples tested and postitive %                                       | https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/Daily_testing.csv    |
 
 ----------------------------------------------
 

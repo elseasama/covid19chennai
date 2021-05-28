@@ -1,5 +1,6 @@
 Date,Deceased Females,Deceased Males,Total Deaths
 <<<<<<< HEAD
+<<<<<<< HEAD
 01-01-2010,69,128,197
 02-01-2010,72,111,183
 03-01-2010,70,88,158
@@ -4154,6 +4155,8 @@ Date,Deceased Females,Deceased Males,Total Deaths
 14-05-2021,11,7,18
 15-05-2021,6,4,10
 =======
+=======
+>>>>>>> parent of e5e64b1 (Update 2010-2020 deceased Chennai.csv)
 2010-01-01,69,128,197
 2010-01-02,72,111,183
 2010-01-03,70,88,158
@@ -8307,4 +8310,7 @@ Date,Deceased Females,Deceased Males,Total Deaths
 2021-05-13,7,7,14
 2021-05-14,11,4,15
 2021-05-15,6,1,7
+<<<<<<< HEAD
+>>>>>>> parent of e5e64b1 (Update 2010-2020 deceased Chennai.csv)
+=======
 >>>>>>> parent of e5e64b1 (Update 2010-2020 deceased Chennai.csv)

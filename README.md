@@ -1,5 +1,10 @@
 # COVID-19 Chennai
 
+### All cause mortality by age group in Chennai from 1st January 2015 upto 30th June 2021
+![Excess deaths by age group](chennai_data/img/deathsall.png)
+
+### All cause mortality by age group and sex in Chennai from 1st January 2015 upto 30th June 2021
+![Excess deaths by age group and sex](chennai_data/img/menvsfem.png)
 
 ![](https://i.postimg.cc/Y9RmrSZh/image.png)
 
